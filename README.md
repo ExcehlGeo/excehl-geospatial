@@ -1,31 +1,59 @@
+> [!NOTE]
+> 🚧 **Status: Pre-Launch / Active Development**
+> This organization is currently migrating legacy data and establishing new cloud-native workflows. Full portfolio and documentation will be available in **Q2 2026**.
+
 # Excehl Geospatial
 
-Excehl Geospatial is a studio dedicated to clean, reproducible workflows for mapping, spatial analysis, and decision support. This repository serves as the entry point for the ExcehlGeo organization—defining shared conventions, linking portfolio projects, and anchoring broader workflow integrations across development, documentation, and portfolio systems.
+**Automated Workflows | Spatial Data Integrity | Intelligent Systems**
 
-## Projects
+Excehl Geospatial is a development studio dedicated to modernizing geospatial tradecraft. We focus on **clean, reproducible workflows** that bridge the gap between traditional Earth Science and modern Data Engineering.
 
-Active and planned work lives in dedicated repositories across the `ExcehlGeo` organization:
+Led by **Jason Ehlenberger (GISP, IHO Cat B)**, the studio leverages over 20 years of experience in defense intelligence and hydrography to build systems that make spatial data more reliable, accessible, and actionable.
 
-- **Project 1 — TBD**
-- **Project 2 — TBD**
+---
 
-As new repositories are created, list them here with a concise one‑sentence description.
+## 🔭 Mission & Focus
+We are exploring how **Cloud-Native architectures** and **AI agents** can solve complex spatial problems. Our core pillars are:
+* **Data Integrity:** Building "Single Source of Truth" systems using rigorous topology and validation logic.
+* **Automation:** Replacing manual GIS tasks with Python, SQL, and API-driven ETL pipelines.
+* **Integration:** Connecting disparate tools (Notion, ArcGIS, GitHub) into unified operational pictures.
 
-## Tech Stack
+---
 
-Current and emerging tools explored in these projects include:
+## 🛠️ Tech Stack
+Our projects explore the intersection of enterprise GIS and modern software engineering:
 
-- **Python** for geospatial data engineering and analysis (GeoPandas, Shapely, Rasterio, GDAL/OGR, PyProj, xarray)
-- **Cloud‑native geospatial** approaches, including cloud‑optimized formats (COG, GeoParquet), STAC catalogs, and object‑storage–based data pipelines
-- **Scalable spatial analytics and GeoAI**, with experimentation in engines like DuckDB, Apache Sedona, and machine‑learning workflows applied to spatial datasets
-- **Esri ecosystem** tools such as ArcGIS Pro, ArcGIS Online, and Living Atlas for publishing, visualization, and sharing work
-- **Automation and integration** using GitHub Actions, Make, and related workflow tools to support reproducibility, data refreshes, and CI/CD
-- **Emerging technologies** in geospatial data science, cloud compute, and AI‑assisted development, explored as they become relevant to modern workflows
+* **Geospatial Engineering:** Python (GeoPandas, Shapely, Rasterio, GDAL/OGR) and SQL (PostGIS, DuckDB).
+* **Cloud-Native Geospatial:** Cloud-Optimized formats (COG, GeoParquet) and STAC catalogs.
+* **Esri Ecosystem:** Advanced automation for ArcGIS Pro, ArcGIS Online, and Living Atlas.
+* **DevOps & CI/CD:** GitHub Actions for automated testing, documentation, and reproducibility.
+* **Emerging Tech:** Experimenting with Apache Sedona, generative AI agents, and semantic search for spatial data.
 
-## Workflow Overview
+---
 
-- Development occurs in feature branches.
-- Pull requests into `main` require review and must pass automated checks.
-- Higher‑level planning, documentation, and portfolio materials are maintained outside this repository (e.g., in external knowledge bases or portfolio systems).
+## 📂 Projects
+Active work lives in dedicated repositories across the ExcehlGeo organization. This repository (`.github`) serves as the central entry point and documentation hub.
 
-Additional conventions and notes can be found in the `docs/` directory.
+* **[Personal Data Warehouse](https://github.com/ExcehlGeo/excehl)**: A serverless system acting as a Single Source of Truth. Integrates Notion, GitHub, and external APIs to automate career data governance.
+* **[Project Name]**: *Another key tool or automation script (Placeholder).*
+
+---
+
+## 🔄 Workflow Overview
+We treat geospatial analysis as software development:
+* **Version Control:** All development occurs in feature branches with strict review gates.
+* **Reproducibility:** If it isn't scripted, it didn't happen. We use Make and Actions to ensure outputs can be recreated.
+* **Documentation:** Knowledge is maintained in external systems (Notion/Docs) but linked here for context.
+
+*For detailed conventions, see the `docs/` directory.*
+
+---
+
+<p align="left">
+<a href="https://www.excehl.com">
+  <img src="https://img.shields.io/badge/Website-excehl.com-blue?style=for-the-badge&logo=firefox" alt="Website" />
+</a>
+<a href="https://www.linkedin.com/in/jason-ehlenberger/">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
+</a>
+</p>
